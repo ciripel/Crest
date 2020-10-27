@@ -1,0 +1,12 @@
+{
+  "banned_names": [
+    "BANNED_NAME_ONE",
+    "BANNED_NAME_TWO",
+    "BANNED_NAME_THREE"
+  ],
+  "ignored_ids": [
+    DISCORD_MEMBER_ID_ONE,
+    DISCORD_MEMBER_ID_TWO,
+    DISCORD_MEMBER_ID_THREE,
+  ]
+}

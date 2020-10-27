@@ -1,0 +1,40 @@
+2020-10-27 22:09:58,827 | INFO:root:----- Started -----
+2020-10-27 22:09:58,835 | WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+2020-10-27 22:09:58,836 | INFO:discord.client:logging in using static token
+2020-10-27 22:09:59,352 | INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+2020-10-27 22:09:59,609 | INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-q3qc",{"micros":120747,"calls":["discord-sessions-prd-2-84",{"micros":114746,"calls":["start_session",{"micros":107275,"calls":["api-prd-main-fqc2",{"micros":101581,"calls":["get_user",{"micros":5501},"add_authorized_ip",{"micros":7779},"get_guilds",{"micros":19403},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6857,"calls":[]}]}]}] (Session ID: aded7fb400c73954b31e587bd115aeea).
+2020-10-27 22:11:43,819 | INFO:discord.client:Cleaning up tasks.
+2020-10-27 22:11:43,819 | INFO:discord.client:Cleaning up after 1 tasks.
+2020-10-27 22:11:43,844 | INFO:discord.client:All tasks finished cancelling.
+2020-10-27 22:11:43,845 | INFO:discord.client:Closing the event loop.
+2020-10-27 22:11:43,845 | INFO:root:----- Finished -----
+2020-10-27 22:11:44,517 | INFO:root:----- Started -----
+2020-10-27 22:11:44,524 | WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+2020-10-27 22:11:44,524 | INFO:discord.client:logging in using static token
+2020-10-27 22:11:45,000 | INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+2020-10-27 22:11:45,194 | INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-bz4p",{"micros":57823,"calls":["discord-sessions-prd-2-70",{"micros":56507,"calls":["start_session",{"micros":36668,"calls":["api-prd-main-1bpz",{"micros":34104,"calls":["get_user",{"micros":2214},"add_authorized_ip",{"micros":1496},"get_guilds",{"micros":1718},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11028,"calls":[]}]}]}] (Session ID: aa35f00a6832859774287545feb1d7bb).
+2020-10-27 22:11:48,507 | INFO:discord.client:Cleaning up tasks.
+2020-10-27 22:11:48,508 | INFO:discord.client:Cleaning up after 1 tasks.
+2020-10-27 22:11:48,534 | INFO:discord.client:All tasks finished cancelling.
+2020-10-27 22:11:48,534 | INFO:discord.client:Closing the event loop.
+2020-10-27 22:11:48,534 | INFO:root:----- Finished -----
+2020-10-27 22:11:50,825 | INFO:root:----- Started -----
+2020-10-27 22:11:50,833 | WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+2020-10-27 22:11:50,833 | INFO:discord.client:logging in using static token
+2020-10-27 22:11:51,361 | INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+2020-10-27 22:11:51,579 | INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-p2c0",{"micros":83478,"calls":["discord-sessions-prd-2-30",{"micros":78109,"calls":["start_session",{"micros":60092,"calls":["api-prd-main-j89d",{"micros":53195,"calls":["get_user",{"micros":5801},"add_authorized_ip",{"micros":2962},"get_guilds",{"micros":2208},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14560,"calls":[]}]}]}] (Session ID: 8f8f6869e00d535afcb6b7ce94eb214a).
+2020-10-27 22:36:20,331 | INFO:discord.gateway:Websocket closed with 4003, attempting a reconnect.
+2020-10-27 22:36:20,332 | INFO:discord.client:Got a request to RESUME the websocket.
+2020-10-27 22:36:20,656 | INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+2020-10-27 22:36:20,795 | INFO:discord.gateway:Shard ID None session has been invalidated.
+2020-10-27 22:36:20,931 | INFO:discord.client:Got a request to IDENTIFY the websocket.
+2020-10-27 22:36:26,175 | INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+2020-10-27 22:36:26,359 | INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-db6b",{"micros":45659,"calls":["discord-sessions-prd-2-80",{"micros":42412,"calls":["start_session",{"micros":36891,"calls":["api-prd-main-6ljs",{"micros":34523,"calls":["get_user",{"micros":2495},"add_authorized_ip",{"micros":2790},"get_guilds",{"micros":2759},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":4199,"calls":[]}]}]}] (Session ID: 7ba4d2654e12201b3127deb578c27f67).
+2020-10-27 23:11:28,447 | INFO:discord.client:Got a request to RESUME the websocket.
+2020-10-27 23:11:28,780 | INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+2020-10-27 23:11:28,930 | INFO:discord.gateway:Shard ID None has successfully RESUMED session 7ba4d2654e12201b3127deb578c27f67 under trace ["gateway-prd-main-nb4z",{"micros":1950,"calls":["discord-sessions-prd-2-80",{"micros":15}]}].
+2020-10-27 23:13:57,705 | INFO:discord.client:Cleaning up tasks.
+2020-10-27 23:13:57,705 | INFO:discord.client:Cleaning up after 1 tasks.
+2020-10-27 23:13:57,727 | INFO:discord.client:All tasks finished cancelling.
+2020-10-27 23:13:57,728 | INFO:discord.client:Closing the event loop.
+2020-10-27 23:13:57,728 | INFO:root:----- Finished -----

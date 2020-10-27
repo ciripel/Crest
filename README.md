@@ -25,7 +25,7 @@ NOW ADD THE BOT TO YOUR SERVER:
 
 ![Invitation Page](../assets/005_invitation_page.png?raw=true)
 
-Copy this link `https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=3078` and replace CLIENTID 
+Copy this link `https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=3078` and replace CLIENTID
 with your bot’s client ID, found on the general information tab of the [application page](https://discordapp.com/developers/applications/).
 
 Bot requires minimum Python 3.7.
@@ -41,7 +41,5 @@ Add your protected members names in the `banned_names` list.
 Also add the IDs of the protected members in `ignored_ids`.
 If u forget to add the ID of an protected member he will be banned from the server the moment he has a status change.
 This is a feature. It allows u to ban ALL members with a desired name for example.
-
-![Invitation Page](https://www.howtogeek.com/wp-content/uploads/2018/09/bot_8.png)
 
 Enjoy the BOT!

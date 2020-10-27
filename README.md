@@ -28,18 +28,22 @@ NOW ADD THE BOT TO YOUR SERVER:
 Copy this link `https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=3078` and replace CLIENTID
 with your bot’s client ID, found on the general information tab of the [application page](https://discordapp.com/developers/applications/).
 
-Bot requires minimum Python 3.7.
-Install the required dependencies
-```
-$ pip install -r requirements.txt
-```
 
-Make an `auth.json` file using `auth.json.example` file as an example. Complete the BOT token that u get from Bot Page in Discord Developer Portal.
+## Step by step installation:
+Setting up the bot requires basic knowledge of the command line, which is bash or similar on Linux/Mac, and cmd.exe in Windows
 
-Make a `params.json` file usint the `params.json.example` as an example.
-Add your protected members names in the `banned_names` list.
-Also add the IDs of the protected members in `ignored_ids`.
-If u forget to add the ID of an protected member he will be banned from the server the moment he has a status change.
-This is a feature. It allows u to ban ALL members with a desired name for example.
+1. Install Python. Crest requires at least Python version 3.7.
+2. Clone this git repo, or download it as a zip or whatever
+3. Open a terminal and enter the repo with the cd command. Something like `cd Downloads/Crest-main`. Your exact command may differ
+4. Run the command `pip install -r requirements.txt`
+5. Make a copy of the file `auth.json.example` and name it `auth.json`.
+6. Complete the BOT token that u get from Bot Page in Discord Developer Portal.
+7. Make a copy of the file `params.json.example` and name it `params.json`.
+8. Add your protected members names in the `banned_names` list.
+9. Also add the IDs of the protected members in `ignored_ids` list.
+**NOTE:If u forget to add the ID of an protected member he will be banned from the server the moment he has a status change.
+This is a feature. It allows u to ban ALL members with a desired name for example.**
+10. Start Crest: `python3 bot.py`
+
 
 Enjoy the BOT!

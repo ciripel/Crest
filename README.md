@@ -41,6 +41,7 @@ Setting up the bot requires basic knowledge of the command line, which is bash o
 7. Make a copy of the file `params.json.example` and name it `params.json`.
 8. Add your protected members names in the `banned_names` list.
 9. Also add the IDs of the protected members in `ignored_ids` list.
+
 **NOTE:If u forget to add the ID of an protected member he will be banned from the server the moment he has a status change.
 This is a feature. It allows u to ban ALL members with a desired name for example.**
 10. Start Crest: `python3 bot.py`
